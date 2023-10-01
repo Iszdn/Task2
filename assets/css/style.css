@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+   background-image: url("../img/photo_5246982029231380841_y.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-color: rgb(101, 208, 194);
+    width: 100%;
+    height: 600px;
+   
+}
+.logo{
+margin-left: 200px;
+}
+.navbar{
+    top: 30px;
+    display: inline;
+    float: right;
+    margin-top: 14px;
+    margin-right: 260px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 8px;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+img{
+    vertical-align: middle;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.apply{
+    display: inline-block;
+    background-color: #10c98f;
+    width: 136px;
+    height: 43px;
+    padding-top: 10px;
+}
+
+
+
+
+.menu{
+    position: relative;
+    cursor: pointer;
+    z-index: 5;
+}
+ .submenu{
+    position: absolute;
+    display: none;
+    border-radius: 2px;
+    width: 140px;
+    left: 16px;
+    top: 55px ;
+    z-index: 6;
+    background-color: #fff;
+    padding: 20px 13px 5px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.menu:hover .submenu{
+    display: block;
+    
+}
+
+.submenu a{
+    color: #0F4332 ;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 13px;
+    transition: all .2s ease-in ;
+}
+
+.submenu a:hover{
+    color: #10C98F ;
+    margin-left: 5px;
+}
+
+/* headerin sonu */
+.opisaniye{
+    overflow: hidden;
+    position: relative;
+    width: 43%;
+}
+h1{
+    font-size: 62px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.1;
+    margin-top: 80px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    padding-bottom: 29px;
+    font-family: "Inter",sans-serif;
+    
+}
+.line{
+    width: 120px;
+    height: 3px;
+    background-color: white;
+    margin-top: 15px;
+}
+.opisaniye p{
+   margin-top: -34px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-left: 180px;
+    
+}
+.button{
+    width: 174px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 180px;
+    margin-top: 10px;
+    position: relative; 
+    margin-bottom: 30px;
+    transition: all 400ms;
+}
+.button .buttona{
+    position: absolute;
+    padding: 13px 20px 13px 40px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #10c98f ;
+    border-color: #10c98f;
+ 
+}
+.container{
+    position: relative;
+}
+.form{
+   left: 930px;
+   top: 65px;
+    background-color: #fff;
+    width: 350px;
+    position: absolute;
+    margin-bottom: 45px;
+}
+h2{
+    color: #0F4332;
+    font-size: 30px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.provide{
+    color: #3F4854;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-left: 75px;
+    padding-bottom: 20px;
+    
+}
+.line2{
+    width: 100px;
+    background: #10C98F;
+    height: 3px;
+    position: absolute;
+    left: 135px;
+    
+}
+label{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4C5753;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 10px;
+}
+.labeller{
+    margin-top: 15px;
+    margin-left: 25px;
+    
+}
+#select1{
+    line-height: 30px;
+    border: 1px solid #C9D6CB;
+    height: 30px;
+    width: 300px;
+    color: #071112;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 5px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    
+
+}
+option{
+    background-color:  #10c98f;
+}
+/* option:hover{
+    color: white;
+} */
+#select2{
+    line-height: 30px;
+    border: 1px solid #C9D6CB;
+    height: 30px;
+    width: 300px;
+    color: #071112;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 5px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+span{
+    color: #10C98F !important;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Chivo', sans-serif;
+}
+.dollaryazi{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4C5753;
+    font-family: 'Chivo', sans-serif;
+    font-size: 10px;
+}
+.button2{
+    background-color: #10c98f;
+    width: 300px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button2 a{
+    font-size: 14px;
+    font-family: 'Chivo', sans-serif;
+}
+.sonyazi{
+    color: #3F4854;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-left: 65px;
+    padding-bottom: 40px;
+}
+
+ /* ikinci sehife baslayir */
+
+#chooseus{
+    background-color: #F4FCFA;
+}
+
+.why{
+    text-align: center;
+    padding: 70px 0;
+}
+
+.why h2{
+    color: #0F4332;
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 12px 0;
+} 
+.line3{
+    width: 130px;
+    height: 3px;
+   position: absolute; 
+ background-color: #10C98F;
+ left: 700px;
+ 
+}
+.why p{
+    color: #6D6D6D;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: 20px;
+} 
+
+
+.content{
+   
+    padding: 0 80px 400px;
+
+}
+
+.content-type{
+    width: 25%;
+    float: left;
+    text-align: center;
+
+}
+
+.content-type:hover h4 a {
+   color: #10C98F;
+}
+.content-type h4 a{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 30px 0px;
+
+    color: #0F4332;
+    transition: all .3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+   margin-right: 50px;
+}
+.content-type p{
+    font-weight: 500;
+    color: #4C5753;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    padding: 0 20px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
